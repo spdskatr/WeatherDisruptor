@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <ActivateWeatherDisruptor>Activate</ActivateWeatherDisruptor>
+  <WeatherDisruptor_StilCharging>Cannot activate, still charging</WeatherDisruptor_StilCharging>
+  <WeatherDisruptor_NoTornadosOnMap>No tornados found on the map.</WeatherDisruptor_NoTornadosOnMap>
+  <WeatherDisruptorRechargesIn>Fully charged in: {0}</WeatherDisruptorRechargesIn>
+  <WeatherDisruptorNoPower>Cannot charge, no power.</WeatherDisruptorNoPower>
+  <ActivateWeatherDisruptorDesc>Activates the weather disruptor on a random tornado on the map.</ActivateWeatherDisruptorDesc>
+  <WeatherDisruptorFullyCharged>Weather disruptor fully charged.</WeatherDisruptorFullyCharged>
+</LanguageData>

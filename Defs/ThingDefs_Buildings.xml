@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef Name="TornadoStopperBuildingBase" Abstract="True">
+    <category>Building</category>
+    <thingClass>Building</thingClass>
+    <soundImpactDefault>BulletImpactMetal</soundImpactDefault>
+    <selectable>true</selectable>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <repairEffect>Repair</repairEffect>
+    <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+    <filthLeaving>BuildingRubble</filthLeaving>
+		<statBases>
+			<SellPriceFactor>0.70</SellPriceFactor>
+		</statBases>
+  </ThingDef>
+  <ThingDef ParentName="TornadoStopperBuildingBase">
+    <defName>WeatherDisruptor</defName>
+    <label>weather disruptor</label>
+    <thingClass>TornadoStopper.Building_WeatherDisruptor</thingClass>
+    <graphicData>
+      <texPath>Things/WeatherDisruptor</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>(3, 3)</drawSize>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <statBases>
+      <MaxHitPoints>1500</MaxHitPoints>
+      <WorkToBuild>3000</WorkToBuild>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <description>A piece of ancient technology that calls on a network of satellites to direct a blast of energy capable of disrupting the air currents of a tornado. Slowly charges up over 1 quadrum.</description>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+    <fillPercent>0.15</fillPercent>
+    <costList>
+      <Steel>500</Steel>
+	  <OrbitalTargeterPowerBeam>1</OrbitalTargeterPowerBeam>
+      <Component>15</Component>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>2000</basePowerConsumption>
+        <shortCircuitInRain>false</shortCircuitInRain>
+      </li>
+      <li Class="CompProperties_Flickable"/>
+      <li Class="CompProperties_Breakdownable"/>
+    </comps>
+		<building>
+			<ai_chillDestination>false</ai_chillDestination>
+		</building>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <pathCost>8</pathCost>
+    <designationCategory>Misc</designationCategory>
+    <rotatable>false</rotatable>
+    <placeWorkers>
+      <li>PlaceWorker_NotUnderRoof</li>
+    </placeWorkers>
+	<size>(3, 3)</size>
+    <designationHotKey>Misc2</designationHotKey>
+    <researchPrerequisites>
+      <li>MicroelectronicsBasics</li>
+    </researchPrerequisites>
+	<tickerType>Rare</tickerType>
+  </ThingDef>
+</Defs>
