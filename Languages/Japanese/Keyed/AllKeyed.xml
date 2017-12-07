@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <ActivateWeatherDisruptor>起動</ActivateWeatherDisruptor>
+  <WeatherDisruptor_StilCharging>充電が完了していないので起動できません。</WeatherDisruptor_StilCharging>
+  <WeatherDisruptor_NoTornadosOnMap>マップ内に竜巻がありません。</WeatherDisruptor_NoTornadosOnMap>
+  <WeatherDisruptorRechargesIn>充電率: {0}</WeatherDisruptorRechargesIn>
+  <WeatherDisruptorNoPower>電力が供給されておらず、充電できません。</WeatherDisruptorNoPower>
+  <ActivateWeatherDisruptorDesc>マップ上のランダムな竜巻に対して気象操作装置を起動します。</ActivateWeatherDisruptorDesc>
+  <WeatherDisruptorFullyCharged>気象操作装置の充電が完了しました。</WeatherDisruptorFullyCharged>
+
+</LanguageData>

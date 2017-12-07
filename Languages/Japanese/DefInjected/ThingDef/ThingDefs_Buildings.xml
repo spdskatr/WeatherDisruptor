@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <WeatherDisruptor.label>気象操作装置</WeatherDisruptor.label>
+  <WeatherDisruptor.description>竜巻の回転を中断させることができるエネルギー衝撃波を誘導する、この惑星の衛星軌道に展開している気象操作用衛星ネットワークと接続する古代技術の部品です。必要なエネルギーを1シーズン/四半期(15日間)以上をかけてゆっくりと充電します。</WeatherDisruptor.description>
+  <WeatherDisruptor_Blueprint.label>気象操作装置(設計)</WeatherDisruptor_Blueprint.label>
+  <WeatherDisruptor_Frame.label>気象操作装置(施工)</WeatherDisruptor_Frame.label>
+  <WeatherDisruptor_Frame.description>竜巻の回転を中断させることができるエネルギー衝撃波を誘導する、この惑星の衛星軌道に展開している気象操作用衛星ネットワークと接続する古代技術の部品です。必要なエネルギーを1シーズン/四半期(15日間)以上をかけてゆっくりと充電します。</WeatherDisruptor_Frame.description>
+
+
+</LanguageData>
